@@ -1,52 +1,19 @@
-#Platform Engineer Handbook
-# [Joseph Angel Anthony Garza Lopez]
+# Platform Engineering Handbook: Home
 
-> **[]**
-> "Documentation as Code: Mi viaje "
+This file is the home entrypoint for Obsidian navigation.  
+The canonical repository overview for GitHub indexing is in [../README.md](../README.md).
 
----
+## Canonical Domain Map
 
-## Sobre este Handbook
-[]
-*Estudiante de TI*
+| Domain | Purpose | Canonical Folder |
+| --- | --- | --- |
+| `01-Systems` | Linux/Ubuntu internals, networking, and security hardening | [../01-Systems](../01-Systems) |
+| `02-Development` | Java OOP, Python, data structures, and SQL optimization | [../02-Development](../02-Development) |
+| `03-Infrastructure` | Docker, orchestration, and CI/CD principles | [../03-Infrastructure](../03-Infrastructure) |
+| `04-Operations` | LTS scripts and SOPs for production operations | [../04-Operations](../04-Operations) |
 
-* **Rol:** []
-* **Enfoque:** []
-* **Estado:**  Activo / Aprendiendo
+## Engineering Standards
 
----
-
-## 🛠 Tech Stack (Mi Herramientas)
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Code](https://img.shields.io/badge/Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
-* **Sistema Operativo:** []
-* **Lenguajes:** []
-* **Herramientas:** []
-
----
-
-## Arquitectura del Conocimiento
-
-| Directorio                               | Contenido                                                                         |
-| :--------------------------------------- | :-------------------------------------------------------------------------------- |
-| **[`10_Systems`](./10_Systems)**         | **Internals & OS.** Administración de Linux, Bash Scripting, y Redes.             |
-| **[`20_Code`](./20_Code)**               | **Desarrollo.** Snippets, lógica de programación, Algoritmos (Java/Python) y SQL. |
-| **[`30_Platform`](./30_Platform)**       | **Infraestructura.** Docker, Kubernetes, CI/CD, Nube y herramientas DevOps.       |
-| **[`80_Portfolio`](./80_Portfolio)**     | **Showcase.** Documentación de proyectos terminados y casos de uso reales.        |
-| **[`99_Attachments`](./99_Attachments)** | *Archivos multimedia y recursos estáticos.*                                       |
-
----
-
-## Roadmap & Metas
-*Lo que estoy aprendiendo o planeo aprender.*
-
-- [x] Crear este repositorio.
-- [ ] 
-- [ ] 
-- [ ] 
-
----
-*Documentación generada con Obsidian & Git.*
+- Documentation is written in technical English with a high-signal style.
+- Notes should be blueprint-ready for reuse by other engineers.
+- Operations scripts must be LTS-safe and require explicit execution confirmation when system state changes.

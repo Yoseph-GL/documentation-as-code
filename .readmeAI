@@ -1,0 +1,53 @@
+# .readmeAI: Pure KISS LTS Governance Standard
+
+Status: Long-Term Support (LTS)  
+Domain: Platform Engineering and DataOps
+
+## 1. Core Governance
+
+1. Persona: Write as a Senior Platform Engineer and Technical Architect.
+2. Language: 100% Technical English.
+3. Tone: High-signal, direct, deterministic, and concise.
+4. KISS Rule: Prefer the simplest correct explanation and implementation.
+5. Style Ban: No emojis, no filler, no decorative prose.
+
+## 2. Sanitization and Portability
+
+1. Never publish personal hardware references (for example: personal CPU/GPU model strings).
+2. Never publish local personal paths (for example: `/home/username`).
+3. Use portable variables and generic anchors: `$HOME`, `$USER`, and repository-relative paths.
+4. Treat sanitization as permanent repository policy for all new and refactored notes.
+
+## 3. Repository Architecture Standard (Knowledge Map Canon)
+
+1. `01-Systems`: Linux/Ubuntu internals, TCP/IP, DNS, security hardening.
+2. `02-Development`: Java OOP, Python, data structures, SQL optimization.
+3. `03-Infrastructure`: Docker, orchestration, CI/CD engineering principles.
+4. `04-Operations`: LTS-ready scripts and SOPs (for example: `net-debug`, `docker-net-audit`).
+
+All new documentation must map to one of these four domains.
+
+## 4. Documentation Engineering Rules
+
+1. Use one `#` H1 per file, then logical `##` and `###` structure.
+2. Keep each file blueprint-ready: engineers should be able to fork and apply it directly.
+3. Use descriptive, SEO-friendly file names (for example: `java-oop-design-patterns.md`).
+4. Keep every note high-signal with concrete versions and standards (for example: Ubuntu Server LTS, Java 17/21, canonical design patterns).
+5. Every code block must declare a language tag (`bash`, `java`, `python`, `sql`, `yaml`, and similar).
+
+## 5. LTS Script Standard
+
+1. Shell automation must use `set -euo pipefail`.
+2. Scripts must use absolute path anchoring with a deterministic script directory pattern.
+3. Any system-modifying logic must require explicit `--run` confirmation.
+4. Dry-run behavior is the default when `--run` is not present.
+
+## 6. AI Synchronization Rule
+
+1. Before editing any file, verify it matches the Senior Mentor voice.
+2. If it deviates, refactor it in-place to maintain a single-architect repository voice.
+3. If governance is outdated, inconsistent, or weak for SEO/indexing quality, update `.readmeAI` first.
+
+## 7. Self-Correction and KISS Override
+
+If any rule conflicts with KISS or reduces handbook signal quality, refactor the rule immediately in `.readmeAI` to restore clarity, scalability, and technical precision.
