@@ -1,14 +1,7 @@
-# --- Obsidian ---
-.obsidian/
-.trash/
-.DS_Store
+# Obsidian
+/.obsidian/
+/.trash/
 
-# --- Archivos de Sistema/Temporales ---
-*.log
-*.tmp
-__pycache__/
-
-# --- Carpetas Privadas ---
-# 90_Privado/
-README_IA.md
-.readmeAI
+# Local
+/README_IA.md
+/.readmeAI
